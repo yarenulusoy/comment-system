@@ -1,0 +1,133 @@
+/*COMMENTS*/
+
+.comments{ /*yorum kısmı tümü*/
+    margin: 80px auto 80px;
+    width:70%;
+    overflow: hidden;
+    float: left;
+    background-color: white;
+    /* border-radius: 5px; */
+    box-shadow: rgba(95, 95, 95, 0.192) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  }
+  
+  .comment-form-container { /*yorum yapma formu*/
+    padding: 20px;
+    height: 750px;
+  }
+  
+  .input-row { /*veri başlık*/
+    margin: 40px;
+  }
+  .input-field { /*ad mail giriş*/
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 2px;
+    padding: 10px;
+    border: #b4b4b4 1px solid;
+  }
+  .input-field-text{ /*yorumgiriş*/
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    border-radius: 2px;
+    padding: 10px;
+    border: #b4b4b4 1px solid;
+  }
+  
+  .btn-submit { /*gönderme butonu*/
+    margin-left: 40px;
+    padding: 7px 5px;
+    background: #518acb;
+    border:1px solid #518acb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #f0f0f0;
+    font-size: 1em;
+    width: 100px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .btn-submit:hover{
+    background: #61a4f1;
+  }
+  .btn-submit:focus{
+    outline: none;
+  }
+  ul {
+    list-style-type: none;
+   
+  }
+  
+  /*yorum listesi*/
+  .comments ul {
+    width: 100%;
+    list-style-type: none;
+   
+  }
+  .comments .outer-comment{/*yorumlar divi tamamı*/
+    width:100%;
+    padding-bottom: 20px;
+  }
+  .comments .comment-row { /*yorum isim tarih kısmı*/
+    margin-bottom: 5px;
+    margin-left: 90px;
+  }
+  
+  .comments .comment-info  { /*isim tarih*/
+    width: 49%;
+  }
+  
+  .comments span.posted-at {/*tarih*/
+    font-size: 10px;
+    color: #333;
+  }
+  
+  .comments .comment-text { /*yorumkısmı*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -5px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+    display: block;
+    border: 1px solid #020b1800;
+    padding: 5px 20px 10px 0px;
+  }
+  .comments .comment-img{/*resim divi*/
+      width: 50px;
+    height: 50px;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+  
+  .comments .comment-img img {/*resim*/
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .btn-reply { /*cevaplabutonu*/
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: #518acb 1px solid;
+    color: #518acb;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: small;
+    padding-left: 5px;
+    padding-right: 5px;
+  
+  }
+  .btn-reply:hover {
+    background: #518acb;
+    text-decoration: none;
+    color: white;
+  }
+  #comment-message {
+    margin-left: 100px;
+    color: #84189a00;
+    display: none;
+  }
+  
+  
