@@ -12,5 +12,5 @@ CREATE TABLE `tbl_comments` (
 ) 
 ```
 
-![Ekran Görüntüsü (2)](https://user-images.githubusercontent.com/45559372/117380096-b0156980-aee1-11eb-85c7-f7119d6969a9.png)
+![Ekran Görüntüsü (2)](https://user-images.githubusercontent.com/45559372/117380198-d9ce9080-aee1-11eb-851f-734f9df642f3.png)
 ![Ekran Görüntüsü (3)](https://user-images.githubusercontent.com/45559372/117380077-a986f200-aee1-11eb-8887-be3639127e5d.png)
