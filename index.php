@@ -5,6 +5,8 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
@@ -55,7 +57,7 @@
                         success: function(response) {
                             var result = eval('(' + response + ')');
                             if (response) {
-                                alert("Mesajınız ulaştı!");
+                                alert("Mesajınız ulaştı !");
                                 $("#comment-message").css('display', 'inline-block');
                                 $("#name").val("");
                                 $("#comment").val("");
@@ -98,8 +100,6 @@
                                 parent = data[i]['id_reply'];
                                 comment_date = data[i]['comment_date'];
                                 var newdate = comment_date.split("-").reverse().join("-");
-
-
 
 
                                 if (parent == "0") {
