@@ -12,3 +12,4 @@ mysqli_free_result($result);
 
 mysqli_close($connection);
 echo json_encode($record_set);
+?>
