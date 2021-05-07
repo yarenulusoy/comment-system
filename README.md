@@ -11,3 +11,4 @@ CREATE TABLE `tbl_comments` (
   `id_reply` int(11) NOT NULL
 ) 
 ```
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
