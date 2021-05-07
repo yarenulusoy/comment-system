@@ -16,6 +16,5 @@ if (! $result) {
     $result = mysqli_error($connection);
 }
 echo $result;
-
 }
-
+?>
